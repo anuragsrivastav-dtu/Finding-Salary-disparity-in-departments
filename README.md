@@ -12,7 +12,7 @@ Here's a step-by-step process how i implemented the project :
 **1. Calculating the mean** 
 firstly the inbuilt function of mean in sql is used to find the mean of salaries in every department, using a group by clause, the output provided the mean salary of every departmetn in the company.  
 **2. calculating the standard deviation**
-again the inbuit standard deviation function is used to calculate st. deviation of salaries for every department.This is used as reference point for standardization.
+again the inbuit standard deviation function is used to calculate st. deviation of salaries for every department.This is used as reference point for standardization.  
 **3. determining z score**  
 the formula for z score is given below :  
 
@@ -20,8 +20,8 @@ the formula for z score is given below :
 
  the calculated values of mean and standard deviation is used in the above formula to get z scores for each department
 Z-scores help identify outliers—individuals whose salaries deviate significantly from the mean. A Z-score greater than a certain threshold (e.g., ±2 or ±3) may indicate a salary that is notably higher or lower than the average.  
-**5. comparing z scores of different department to gain neccessary insights**
-The final z scores was compared , and the derived conclusions are discussed in the next section  
+**5. comparing z scores of different department to gain neccessary insights**  
+The final z scores was compared , and the derived conclusions are discussed in the next section    
 
 # CONCLUSION
 Based on these metrics (coefficient_of_Variation, outliers, Standard_deviation) , here are the departments which shows the most variance and discrepancy in salary according to the metrics:  
