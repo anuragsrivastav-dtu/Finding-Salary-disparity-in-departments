@@ -13,8 +13,8 @@ Here's a step-by-step process how i implemented the project :
 firstly the inbuilt function of mean in sql is used to find the mean of salaries in every department, using a group by clause, the output provided the mean salary of every departmetn in the company.  
 **2. calculating the standard deviation**
 again the inbuit standard deviation function is used to calculate st. deviation of salaries for every department.This is used as reference point for standardization.
-**3. determining z score**
-the formula for z score is given below :
+**3. determining z score**  
+the formula for z score is given below :  
 
 ![image](https://github.com/anuragsrivastav-dtu/SQL-project-Finding-Salary-disparities-within-departments/assets/140643875/fdeee732-7d25-4853-afb0-db038ab6ce05)   
 
