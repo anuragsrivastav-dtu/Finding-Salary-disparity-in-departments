@@ -1,9 +1,9 @@
 # BUSINESS CASE 
   
 As a data analyst working in a firm. The manager is seeking insights into salary disparities and wants you to identify the departments with Salaries above and below the average within each department.  
-B. Objective: Create a query that identifies a high amount of variation in departments salaries.  
-C. Deliverable: List from a SQL database with Average Salary, Department, and a way to score variation  
-D. Hypothesis: PWD department has been flagged a department that has a high amount of salary spread.
+ **Objective:** Create a query that identifies a high amount of variation in departments salaries.   
+ **Deliverable:** List from a SQL database with Average Salary, Department, and a way to score variation    
+ **Hypothesis:** PWD department has been flagged a department that has a high amount of salary spread.  
 
 # METHODOLOGY
 Simply put, a z-score (also called a standard score) gives you an idea of how far from the mean a data point is. But more technically it’s a measure of how many standard deviations below or above the population mean a raw score is.  
@@ -15,7 +15,9 @@ firstly the inbuilt function of mean in sql is used to find the mean of salaries
 again the inbuit standard deviation function is used to calculate st. deviation of salaries for every department.This is used as reference point for standardization.
 3. determining z score   
 the formula for z score is given below :
-![image](https://github.com/anuragsrivastav-dtu/SQL-project-Finding-Salary-disparities-within-departments/assets/140643875/fdeee732-7d25-4853-afb0-db038ab6ce05) 
+
+![image](https://github.com/anuragsrivastav-dtu/SQL-project-Finding-Salary-disparities-within-departments/assets/140643875/fdeee732-7d25-4853-afb0-db038ab6ce05)   
+
  the calculated values of mean and standard deviation is used in the above formula to get z scores for each department
 Z-scores help identify outliers—individuals whose salaries deviate significantly from the mean. A Z-score greater than a certain threshold (e.g., ±2 or ±3) may indicate a salary that is notably higher or lower than the average.  
 5. comparing z scores of different department to gain neccessary insights
